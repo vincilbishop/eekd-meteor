@@ -1,0 +1,62 @@
+<template name="MessageIndex">
+    <div class="container">
+        <div class="row clearfix">
+            <div class="col-md-12 column">
+                <div class="page-header">
+                    <h1>
+                        Inbox <small>Incomes messages</small>
+                    </h1>
+                </div>
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h3 class="panel-title">
+                            Panel title
+                        </h3>
+                    </div>
+                    <div class="panel-body">
+                        {{> DataTable InboxDataTable }}
+                    </div>
+                    <div class="panel-footer">
+                        Panel footer
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="messageModal" class="modal fade">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                    <h4 class="modal-title">Message by: <strong>Sheyla</strong></h4>
+                </div>
+                <div class="modal-body">
+                    <div class="row">
+                        <div class="col-md-8">
+                            <div class="form-group">
+                                <label class="control-label" for="nameInput">Name</label>
+                                <input class="form-control" id="nameInput" type="text" value="Sheyla" disabled="">
+                            </div>
+                            <div class="form-group">
+                                <label class="control-label" for="userInput">Age</label>
+                                <input class="form-control" id="userInput" type="text" value="28" disabled="">
+                            </div>
+                            <div class="form-group">
+                                <label class="control-label" for="locationInput">Location</label>
+                                <input class="form-control" id="locationInput" type="text" value="Austin TX" disabled="">
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <img src="http://www.firstpersonarts.org/wp-content/uploads/2010/08/Soledad-new-headshot-7-073.jpg" class="img-thumbnail" />
+                        </div>
+                    </div>
+                    <br>
+                </div>
+                <div class="modal-footer">
+                </div>
+            </div><!-- /.modal-content -->
+        </div><!-- /.modal-dialog -->
+    </div><!-- /.modal -->
+
+</template>

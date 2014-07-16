@@ -1,0 +1,27 @@
+{
+  "packages": {
+    "iron-router": {},
+    "collection2": {},
+    "accounts-entry": {},
+    "less-bootstrap-3": {},
+    "reactive": {},
+    "font-awesome-4-less": {},
+    "reactive-publish": {},
+    "autoform": {},
+    "jquery-datatables": {},
+    "bootboxjs": {},
+    "moment-twix": {},
+    "npm": {},
+    "user-status": {},
+    "facebook-node-sdk": {},
+    "facebook-sdk": {},
+    "facebook-server-methods" : {
+      "path":"../../../../Open-Source-Projects/meteor-facebook-server-methods/"
+
+    },
+    "layer-methods" : {
+      "path":"../../../../Open-Source-Projects/meteor-layer-methods/"
+
+    }
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "public": {
+    "host": "eekdtest-20845.onmodulus.net",
+    "env": "test",
+    "ga": {
+      "account":"???"
+    }
+  },
+  "APN": {
+    "certificate": "aps_development_com.???-cert.pem",
+    "key": "aps_development_com.hippoverse.???-key.pem",
+    "gateway": "gateway.sandbox.push.apple.com"
+  },
+  "Kadira": {
+    "appId": "7gMBmgvwxFp6vrNEp",
+    "secret": "ec3df598-e5a0-4141-8de9-c9333e122963"
+  },
+  "Facebook": {
+    "appId": "739316029462388",
+    "secret": "2f227915cd03618eaf1bb995b0039ab9"
+  }
+}

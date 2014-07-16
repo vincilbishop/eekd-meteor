@@ -1,0 +1,17 @@
+[
+  {
+    "username": "admin",
+    "password": "supersecret",
+    "email": "test@test.com"
+  },
+  {
+    "username": "vincil",
+    "password": "supersecret",
+    "email": "vincil.bishop@vbishop.com"
+  },
+  {
+    "username": "Mr.Info",
+    "password": "supersecret",
+    "email": "info@premosystems.com"
+  }
+]

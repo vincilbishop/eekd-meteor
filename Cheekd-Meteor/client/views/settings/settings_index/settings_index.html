@@ -1,0 +1,100 @@
+<template name="SettingsIndex">
+    <div class="container">
+        <div class="row clearfix">
+            <div class="page-header">
+                <h1>
+                    My Settings
+                </h1>
+            </div>
+            <div class="col-md-4 column">
+                <h3>
+                    Tag Criteria
+                </h3>
+                <form role="form">
+                    <div class="form-group">
+                        <label for="selectAge1">Age Range between</label>
+                        <select class="form-control" id="selectAge1">
+                            <option>20</option>
+                            <option>2</option>
+                            <option>3</option>
+                            <option>4</option>
+                            <option>5</option>
+                        </select>
+                        <label for="selectAge2">And</label>
+                        <select class="form-control" id="selectAge2">
+                            <option>30</option>
+                            <option>2</option>
+                            <option>3</option>
+                            <option>4</option>
+                            <option>5</option>
+                        </select>
+                    </div>
+                    <label class="control-label">Searching for...</label>
+                    <div class="form-group">
+                        <div class="radio">
+                            <label>
+                                <input type="radio" name="genderRadios" id="genderMale" value="option1" checked="">
+                                Male
+                            </label>
+                        </div>
+                        <div class="radio">
+                            <label>
+                                <input type="radio" name="genderRadios" id="genderFemale" value="option2">
+                                Female
+                            </label>
+                        </div>
+                        <div class="radio">
+                            <label>
+                                <input type="radio" name="genderRadios" id="genderBoth" value="option2">
+                                Both
+                            </label>
+                        </div>
+                    </div>
+
+                    <button type="submit" class="btn btn-default">Update</button>
+                </form>
+            </div>
+            <div class="col-md-4 column">
+                <h3>
+                    Notification Options
+                </h3>
+                <form role="form">
+                    <label class="control-label">Upon Tag</label>
+                    <div class="form-group">
+                        <div class="radio">
+                            <label>
+                                <input type="radio" name="uponRadios" id="uponVibrate" value="option1" checked="">
+                                Vibrate
+                            </label>
+                        </div>
+                        <div class="radio">
+                            <label>
+                                <input type="radio" name="uponRadios" id="uponSound" value="option2">
+                                Sound
+                            </label>
+                        </div>
+                    </div>
+                    <button type="submit" class="btn btn-default">Update</button>
+                </form>
+            </div>
+            <div class="col-md-4 column">
+                <h3>
+                    Iced Tags
+                </h3>
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h3 class="panel-title">
+                            Panel title
+                        </h3>
+                    </div>
+                    <div class="panel-body">
+                        {{> DataTable IcedTagsDataTable }}
+                    </div>
+                    <div class="panel-footer">
+                        Panel footer
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</template>

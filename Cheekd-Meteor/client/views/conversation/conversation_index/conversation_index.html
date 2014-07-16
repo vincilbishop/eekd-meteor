@@ -1,0 +1,76 @@
+<template name="ConversationIndex">
+    <div class="container">
+        <div class="row clearfix">
+            <div class="col-md-12 column">
+                <div class="page-header">
+                    <h1>
+                        My conversations <small></small>
+                    </h1>
+                </div>
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h3 class="panel-title">
+                            Recent Converstations
+                        </h3>
+                    </div>
+                    <div class="panel-body">
+                        {{> DataTable converstationDataTable }}
+                    </div>
+                    <div class="panel-footer">
+                        Panel footer
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="messageModal" class="modal fade">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                    <h4 class="modal-title">Conversation with: <strong>Sheyla</strong></h4>
+                </div>
+                <div class="modal-body">
+                    <div class="row">
+                        <div class="col-md-12">
+
+                            <div class="alert alert-dismissable alert-success">
+                                <img src="https://lh5.googleusercontent.com/-C80S1S64FlQ/AAAAAAAAAAI/AAAAAAAAAgk/IE20nIdmXcA/photo.jpg"
+                                     class="img-circle" style="max-width: 50px; max-height: 50px;" />
+                                <strong>Carlos says:</strong>
+                                Hello there!
+                            </div>
+
+                            <div class="alert alert-dismissable alert-info">
+                                <img src="http://static1.businessinsider.com/image/5228c23beab8ea9c4f8b456b/7-ways-companies-deter-women-in-tech-jobs.jpg"
+                                     class="img-circle" style="max-width: 50px; max-height: 50px;" />
+                                <strong>Sheyla says:</strong>
+                                How you doing?
+                            </div>
+
+                            <div class="alert alert-dismissable alert-success">
+                                <img src="https://lh5.googleusercontent.com/-C80S1S64FlQ/AAAAAAAAAAI/AAAAAAAAAgk/IE20nIdmXcA/photo.jpg"
+                                     class="img-circle" style="max-width: 50px; max-height: 50px;" />
+                                <strong>Carlos says:</strong>
+                                Fine, what about you?
+                            </div>
+
+                            <div class="alert alert-dismissable alert-info">
+                                <img src="http://www.jewishtribune.ca/wp-content/uploads/2013/12/1-Olivia-Wise1-e1387816983491.jpg"
+                                     class="img-circle" style="max-width: 50px; max-height: 50px;" />
+                                <strong>Sheyla says:</strong>
+                                Fine too :-)
+                            </div>
+
+                        </div>
+                    </div>
+                    <br>
+                </div>
+                <div class="modal-footer">
+                    <textarea class="form-control" rows="3" id="textArea" placeholder="Enter text..."></textarea>
+                </div>
+            </div><!-- /.modal-content -->
+        </div><!-- /.modal-dialog -->
+    </div><!-- /.modal -->
+</template>

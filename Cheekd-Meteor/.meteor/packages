@@ -1,0 +1,28 @@
+# Meteor packages used by this project, one per line.
+#
+# 'meteor add' and 'meteor remove' will edit this file for you,
+# but you can also edit it by hand.
+
+standard-app-packages
+insecure
+iron-router
+collection2
+accounts-ui
+accounts-password
+accounts-entry
+less-bootstrap-3
+reactive
+font-awesome-4-less
+less
+blaze-layout
+moment
+reactive-publish
+autoform
+jquery-datatables
+bootboxjs
+moment-twix
+user-status
+facebook-node-sdk
+facebook-sdk
+npm
+facebook-server-methods
