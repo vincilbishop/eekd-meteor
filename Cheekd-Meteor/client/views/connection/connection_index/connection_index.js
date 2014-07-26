@@ -2,12 +2,15 @@
 /* ConnectionIndex: Event Handlers and Helpers */
 /*****************************************************************************/
 Template.ConnectionIndex.events({
-  /*
-   * Example: 
-   *  'click .selector': function (e, tmpl) {
-   *
-   *  }
-   */
+    'click #plus': function(e,tmpl){
+        var tr = e.currentTarget;
+        $("#connectionModal").modal();
+    },
+    'click #getcheeke': function(e,tmpl){
+        var tr = e.currentTarget;
+        $("#connectionModal").modal('toggle');
+        $('#resultModal').modal();
+    }
 });
 
 Template.ConnectionIndex.helpers({
@@ -56,6 +59,7 @@ Template.ConnectionIndex.helpers({
             subscription: 'messages'
         }
     }
+
 });
 
 /*****************************************************************************/

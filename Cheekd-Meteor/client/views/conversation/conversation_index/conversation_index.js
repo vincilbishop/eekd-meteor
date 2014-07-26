@@ -1,7 +1,7 @@
 /*****************************************************************************/
 /* ConversationIndex: Event Handlers and Helpers */
 /*****************************************************************************/
-Template.ConversationIndex.events({
+Template.Conversation_Index.events({
     'dblclick tr': function(e,tmpl){
         var tr = e.currentTarget;
         Session.set('message_id',this.self.$.api().row(tr).data());
@@ -9,7 +9,7 @@ Template.ConversationIndex.events({
     }
 });
 
-Template.ConversationIndex.helpers({
+Template.Conversation_Index.helpers({
     converstationDataTable: function () {
       return {
           id:'converstationDataTable',
@@ -52,11 +52,11 @@ Template.ConversationIndex.helpers({
 /*****************************************************************************/
 /* ConversationIndex: Lifecycle Hooks */
 /*****************************************************************************/
-Template.ConversationIndex.created = function () {
+Template.Conversation_Index.created = function () {
 };
 
-Template.ConversationIndex.rendered = function () {
+Template.Conversation_Index.rendered = function () {
 };
 
-Template.ConversationIndex.destroyed = function () {
+Template.Conversation_Index.destroyed = function () {
 };

@@ -1,3 +1,27 @@
 <template name="EncounterIndex">
-  client/views/encounter/encounter_index/encounter_index.html
+    <div class="container">
+        <div class="row clearfix">
+            <div class="col-md-12 column">
+                <div class="page-header">
+                    <h1>
+                        Missed <small>Latest encounters</small>
+                    </h1>
+                </div>
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h3 class="panel-title">
+                            Double click to see Re-Cheekd
+                        </h3>
+                    </div>
+                    <div class="panel-body">
+                        {{> DataTable encounterDataTable }}
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</template>
+
+<template name="imgChekeedTemplate">
+   <a> <i class="fa fa-map-marker fa-2x  {{class}}"></i> {{label}}</a>
 </template>

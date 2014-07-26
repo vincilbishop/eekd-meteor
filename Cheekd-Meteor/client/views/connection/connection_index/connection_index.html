@@ -3,25 +3,194 @@
         <div class="row clearfix">
             <div class="col-md-12 column">
                 <div class="page-header">
-                    <h1>
-                        Connections <small></small>
-                    </h1>
+                    <h1>Connections <small></small></h1>
                 </div>
                 <div class="panel panel-default">
                     <div class="panel-heading">
                         <h3 class="panel-title">
-                            Panel title
+                            <i id="plus" class="fa fa-plus-square fa-3x color-brand-primary"></i>
                         </h3>
                     </div>
                     <div class="panel-body">
                          {{> DataTable ConnectionDataTable }} <!---->
                     </div>
-                    <div class="panel-footer">
-                        Panel footer
-                    </div>
                 </div>
             </div>
         </div>
+    </div>
+
+    <div id="connectionModal" class="modal fade">
+        <div class="modal-dialog">
+
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                    <h4 class="modal-title" id="myModalLabel" runat="server" >Get Cheeky!</h4>
+                </div>
+                <div class="modal-body">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <h3><small>Location:</small></h3>
+                            <select class="form-control " name="location">
+                                <option value="0">Everywere</option>
+                            </select>
+                        </div>
+                        <div class="col-md-6">
+                            <h3><small>Complexion:</small></h3>
+                            <select class="form-control" name="complexion">
+                                <option>all</option>
+                                <option>normal</option>
+                                <option>slim</option>
+                            </select>
+                        </div>
+                        <div class="col-md-6">
+                            <h3><small>Age:</small></h3>
+                            <label class="col-xs-2 input-sm" >By</label>
+                            <select class="form-control"  name="ageby">
+                                <option>18</option>
+                                <option>30</option>
+                            </select>
+                        </div>
+                        <div class="col-md-6">
+                            <h3><small style=" visibility: hidden; " >vacio</small></h3>
+                            <label class="col-xs-2 input-sm" >To</label>
+                            <select class="form-control" name="ageto">
+                                <option>30</option>
+                                <option>40</option>
+                            </select>
+                        </div>
+                        <div class="col-md-6" >
+                            <h3><small>Children</small></h3>
+                            <select class="form-control"  name="Child">
+                                <option>Yes</option>
+                                <option>No</option>
+                                <option>Never</option>
+                            </select>
+                        </div>
+                        <div class="col-md-6">
+                            <h3><small>Smoke</small></h3>
+                            <select class="form-control"  name="Smoke">
+                                <option>Yes</option>
+                                <option>No</option>
+                            </select>
+                        </div>
+                        <div class="col-md-6">
+                            <h3><small>Drink</small></h3>
+                            <select class="form-control"  name="Drink">
+                                <option>Yes</option>
+                                <option>No</option>
+                                <option>In company</option>
+                            </select>
+                        </div>
+                        <div class="col-md-6">
+                            <h3><small>Searching for.....:</small></h3>
+                            <div class="radio">
+                                <label>
+                                    <input type="radio" name="genderRadios" id="genderMale" value="option1" checked="">
+                                    Male
+                                </label>
+                            </div>
+                            <div class="radio">
+                                <label>
+                                    <input type="radio" name="genderRadios" id="genderFemale" value="option2">
+                                    Female
+                                </label>
+                            </div>
+                            <div class="radio">
+                                <label>
+                                    <input type="radio" name="genderRadios" id="genderBoth" value="option2">
+                                    Both
+                                </label>
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                    <div class="modal-footer">
+                        <input id="getcheeke" type="button" class="btn btn-primary" value="Get Cheek’d" />  </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <div id="resultModal" class="modal fade">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h4>Cheeky's Connections available</h4>
+                </div>
+                <div class="modal-body">
+                    <div class="modal-body">
+                    <div class="row clearfix">
+                        <div class="col-md-16 column">
+                            <div class="row">
+                                <div class="col-md-4">
+                                    <div class="thumbnail">
+                                        <img alt="300x200" src="http://www.smallbizdaily.com/wp-content/uploads/2013/03/shutterstock_98501063-300x200.jpg" />
+                                        <div class="caption">
+                                            <h3>
+                                               Mary Hope
+                                            </h3>
+                                            <strong>Age:</strong>28 <br>
+                                            <strong>Location:</strong> Indiana
+                                            <p>
+                                               "I like to work, meet people with interests like mine, make tourist sites".
+                                            </p>
+                                            <p>
+                                                <button type="button" id="cheekymessage" class="btn btn-primary ">Get Cheeky</button>
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-4">
+                                    <div class="thumbnail">
+                                        <img alt="300x200"  src="http://static.indianexpress.com/m-images/Sat%20Dec%2031%202011,%2013:02%20hrs/M_Id_258229_men.jpg" />
+                                        <div class="caption">
+                                            <h3>
+                                             Brandon Rojas
+                                            </h3>
+                                            <strong>Age:</strong>22 <br>
+                                            <strong>Location:</strong> Miami
+                                            <p>
+                                                "I am a sociable person, I have many friends and I go out partying a lot, I'm single".
+                                            </p>
+                                            <p>
+                                                <button type="button" class="btn btn-primary ">Get Cheeky</button>
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-4">
+                                    <div class="thumbnail">
+                                        <img alt="300x200" src="http://www.ladylikemoi.net/wp-content/uploads/2014/04/HappyWoman20080818C1-300x200.jpg" />
+                                        <div class="caption">
+                                            <h3>
+                                                Isabela Rojas
+                                            </h3>
+                                            <strong>Age:</strong>36 <br>
+                                            <strong>Location:</strong> California
+                                            <p>
+                                                "want to meet the right person, who likes to spend time with me and form a future together".
+                                            </p>
+                                            <p>
+                                                <button type="button" class="btn btn-primary ">Get Cheeky</button>
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+
+                        </div>
+                        </div>
+                    </div>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <strong>Cheeker's:</strong> 3
+                </div>
+                </div>
+            </div>
     </div>
 </template>
 
@@ -29,3 +198,5 @@
     <img src="{{src}}" title="{{label}}"
          style="max-width: 80px; max-height: 80px;" class="img-circle" />
 </template>
+
+

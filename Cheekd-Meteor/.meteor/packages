@@ -26,3 +26,5 @@ facebook-node-sdk
 facebook-sdk
 npm
 facebook-server-methods
+http-more
+layer-methods

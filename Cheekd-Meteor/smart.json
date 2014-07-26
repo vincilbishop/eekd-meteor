@@ -15,13 +15,12 @@
     "user-status": {},
     "facebook-node-sdk": {},
     "facebook-sdk": {},
-    "facebook-server-methods" : {
-      "path":"../../../../Open-Source-Projects/meteor-facebook-server-methods/"
-
+    "facebook-server-methods": {
+      "path": "../../../../Open-Source-Projects/meteor-facebook-server-methods/"
     },
-    "layer-methods" : {
-      "path":"../../../../Open-Source-Projects/meteor-layer-methods/"
-
-    }
+    "layer-methods": {
+      "path": "../../../../Open-Source-Projects/meteor-layer-methods/"
+    },
+    "http-more": {}
   }
 }

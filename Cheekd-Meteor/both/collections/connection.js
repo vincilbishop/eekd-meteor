@@ -8,13 +8,17 @@ Connection = new Meteor.Collection('connection', {
       defaultValue: new Date(),
       optional:true
     },
-    displayName: {
+    user1Id: {
       type: String,
-      label: 'displayName'
+      label: 'user1Id'
     },
-    userId: {
+    user2Id: {
       type: String,
-      label: 'userId'
+      label: 'user2Id'
+    },
+    encounterId: {
+      type: String,
+      label: 'encounterId'
     }
   })
 });

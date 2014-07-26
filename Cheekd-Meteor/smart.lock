@@ -22,7 +22,8 @@
       },
       "layer-methods": {
         "path": "../../../../Open-Source-Projects/meteor-layer-methods"
-      }
+      },
+      "http-more": {}
     },
     "packages": {
       "iron-router": {
@@ -62,8 +63,8 @@
       },
       "autoform": {
         "git": "https://github.com/aldeed/meteor-autoform.git",
-        "tag": "v0.14.0",
-        "commit": "30de032833052ea61e9d37bca5523264309d4478"
+        "tag": "v0.15.1",
+        "commit": "723aed684ef9d16e94424cde6389b8e4a03d546e"
       },
       "jquery-datatables": {
         "git": "https://github.com/lumapictures/meteor-jquery-datatables",
@@ -72,8 +73,8 @@
       },
       "bootboxjs": {
         "git": "https://github.com/TimHeckel/meteor-bootboxjs.git",
-        "tag": "v4.2.0",
-        "commit": "2b7d18ad028d9e7b37238ecf2a8a7970735cebd1"
+        "tag": "v4.2.1-master.1",
+        "commit": "c125969c1f3aef30e2a2ff20252bd3b2e4014b2f"
       },
       "moment-twix": {
         "git": "https://github.com/splendido/meteor-moment-twix.git",
@@ -106,6 +107,11 @@
       "layer-methods": {
         "path": "../../../../Open-Source-Projects/meteor-layer-methods"
       },
+      "http-more": {
+        "git": "https://github.com/StockBase/meteor-http-more.git",
+        "tag": "v0.8.1-2",
+        "commit": "e7bc2fda40d130e51ff65187b0a8f1f6caa3c228"
+      },
       "blaze-layout": {
         "git": "https://github.com/EventedMind/blaze-layout.git",
         "tag": "v0.2.4",
@@ -135,11 +141,6 @@
         "git": "https://github.com/LumaPictures/meteor-luma-component",
         "tag": "v1.0.5",
         "commit": "9d567068048e9ca82699b096e78c3f7ec76c0fa4"
-      },
-      "bootstrap-3": {
-        "git": "https://github.com/mangasocial/meteor-bootstrap-3.git",
-        "tag": "v3.2.0-1",
-        "commit": "17a63902fc6cf1096c5289d963c66cf28b474727"
       },
       "timesync": {
         "git": "https://github.com/mizzao/meteor-timesync.git",

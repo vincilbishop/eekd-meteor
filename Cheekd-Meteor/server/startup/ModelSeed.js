@@ -17,7 +17,7 @@ Meteor.startup(function(){
     }
   });
 
-  // Users
+  /*
   var connectionText = Assets.getText("ModelSeed/Connections.json");
   var connections = JSON.parse(connectionText);
 
@@ -28,5 +28,6 @@ Meteor.startup(function(){
       var result = Connection.insert(connection);
     }
   });
+  */
 
 });
