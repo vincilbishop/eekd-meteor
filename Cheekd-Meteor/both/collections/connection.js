@@ -19,6 +19,11 @@ Connection = new Meteor.Collection('connection', {
     encounterId: {
       type: String,
       label: 'encounterId'
+    },
+    has_conversated: {
+      type: Boolean,
+      label: 'has_conversated',
+      defaultValue:false
     }
   })
 });

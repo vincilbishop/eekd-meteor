@@ -3,8 +3,10 @@ Message = new Meteor.Collection('message', {
   'schema' : new SimpleSchema({
 
     createDate: {
-      type: Date,
-      label: 'createDate'
+        type: Date,
+        label: 'createDate',
+        defaultValue: new Date(),
+        optional:true
     },
     text: {
       type: String,

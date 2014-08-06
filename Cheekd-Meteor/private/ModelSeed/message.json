@@ -1,0 +1,59 @@
+[
+    {
+        "_id":"encounter_gjhg2020s",
+        "conversationId":"test_conversation_01",
+        "user1Id":"user01",
+        "user2Id":"user02",
+        "text":"Hello"
+    },
+    {
+        "_id":"encounter_gjhslkasdsd",
+        "conversationId":"test_conversation_01",
+        "user1Id":"user01",
+        "user2Id":"user02",
+        "text":"How are you?"
+    },
+    {
+        "_id":"encounter_gasdasasgsddf",
+        "conversationId":"test_conversation_01",
+        "user1Id":"user02",
+        "user2Id":"user01",
+        "text":"Fine, and you?"
+    },
+    {
+        "_id":"encounter_gjhopospdsh",
+        "conversationId":"test_conversation_01",
+        "user1Id":"user01",
+        "user2Id":"user02",
+        "text":"Fine too :)"
+    },
+
+    {
+        "_id":"encounter_gjalskdlsddeh",
+        "conversationId":"test_conversation_02",
+        "user1Id":"user03",
+        "user2Id":"user04",
+        "text":"Hello men!"
+    },
+    {
+        "_id":"encounter_gjhppmsmdpsd",
+        "conversationId":"test_conversation_01",
+        "user1Id":"user03",
+        "user2Id":"user04",
+        "text":"How you doing!?"
+    },
+    {
+        "_id":"encounter_gpsdpasdposd",
+        "conversationId":"test_conversation_01",
+        "user1Id":"user04",
+        "user2Id":"user03",
+        "text":"Cool dude, and you?"
+    },
+    {
+        "_id":"encounter_gjh20oasodosh",
+        "conversationId":"test_conversation_01",
+        "user1Id":"user03",
+        "user2Id":"user04",
+        "text":"Im fine too, thanks for asking men!"
+    }
+]

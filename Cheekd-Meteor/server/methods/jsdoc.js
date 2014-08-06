@@ -9,10 +9,30 @@
  *  @param {String} userId The ID of the user to create in layer. Usually the user's Meteor ID
  *  @returns See example success and error objects.
  *  @see Official Layer API Documentation: https://docs-beta.layer.com/ios#backendapi
- *  @example success response: {"status":true,"users":[{"layer_id":"4cb2a445-0cb7-435e-8c9f-aff2a8361fa5","remote_id":"TPaJhYvAmaDqW43JH"}]}
- *  @example error response: {"status":false,"message":"User with id TPaJhYvAmaDqW43JH already exists","error":"UserExists"}
- *  @example On successful creation the method writes layer information to the services node of the Meteor user record:
- *  { "layer" : { "layer_id" : "3eaaefca-eb7a-4d6e-9015-1fd2fc6d757d" , "remote_id" : "qLQoGuv5f3juva7Xi"}}
+ *  @example success response:
+    {
+      "status":true,
+      "users":[
+      {
+         "layer_id":"4cb2a445-0cb7-435e-8c9f-aff2a8361fa5",
+         "remote_id":"TPaJhYvAmaDqW43JH"
+      }
+      ]
+    }
+    @example error response:
+    {
+      "status":false,
+      "message":"User with id TPaJhYvAmaDqW43JH already exists",
+      "error":"UserExists"
+    }
+    @example On successful creation the method writes layer information
+    to the services node of the Meteor user record:
+    {
+      "layer":{
+        "layer_id":"3eaaefca-eb7a-4d6e-9015-1fd2fc6d757d",
+        "remote_id":"qLQoGuv5f3juva7Xi"
+      }
+    }
  @memberof Server-Methods
  */
 

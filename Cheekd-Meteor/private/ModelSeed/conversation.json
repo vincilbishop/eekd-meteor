@@ -1,0 +1,65 @@
+[
+    {
+        "_id":"conversation_gjfdd33112hjh",
+        "displayName": "John",
+        "user1Id": "John01",
+        "user2Id":"John02"
+    },
+    {
+        "_id":"conversation_gj1231233112hjh",
+        "displayName": "Mark",
+        "user1Id": "UserMark",
+        "user2Id":"UserMark01"
+    },
+    {
+        "_id":"conversation_asdasdd33112hjh",
+        "displayName": "Susan",
+        "user1Id": "Susan23",
+        "user2Id":"Susan56"
+    },
+    {
+        "_id":"conversation_gjfdd331123221h",
+        "displayName": "Isabel",
+        "user1Id": "isabelGonz",
+        "user2Id":"isabelGonz01"
+    },
+    {
+        "_id":"conversation_gjasd23112hjh",
+        "displayName": "Edward",
+        "user1Id": "edward9090",
+        "user2Id":"edward1212"
+    },
+    {
+        "_id":"conversation_gass2dd33112hjh",
+        "displayName": "Hope",
+        "user1Id": "myhope2012",
+        "user2Id":"myhope2014"
+    },
+    {
+        "_id":"conversation_gjfdd3asd22ag",
+        "displayName": "Michael",
+        "user1Id": "super18",
+        "user2Id":"super23"
+    }
+    ,
+    {
+        "_id":"conversation_gjfjhghjgh2hjh",
+        "displayName": "Michael",
+        "user1Id": "micha22",
+        "user2Id":"micha23"
+    },
+    {
+        "_id":"conversation_gjkhfsdsd33112hjh",
+        "displayName": "Eve",
+        "user1Id": "eve01",
+        "user2Id":"eve04"
+
+    },
+    {
+        "_id":"conversation_goopopoooojh",
+        "displayName": "Oscar",
+        "user1Id": "Oscar101",
+        "user2Id":"Oscar1992"
+
+    }
+]

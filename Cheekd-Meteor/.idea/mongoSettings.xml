@@ -4,12 +4,16 @@
     <option name="serverConfigurations">
       <list>
         <ServerConfiguration>
-          <option name="label" value="Meteor-Local" />
+          <option name="label" value="localhost-3001" />
           <option name="serverUrls">
             <list>
               <option value="localhost:3001" />
             </list>
           </option>
+          <option name="userDatabase" value="meteor" />
+        </ServerConfiguration>
+        <ServerConfiguration>
+          <option name="label" value="localhost-27017" />
         </ServerConfiguration>
       </list>
     </option>

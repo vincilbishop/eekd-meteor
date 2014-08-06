@@ -3,8 +3,10 @@ Conversation = new Meteor.Collection('conversation', {
   'schema' : new SimpleSchema({
 
     createDate: {
-      type: Date,
-      label: 'createDate'
+        type: Date,
+        label: 'createDate',
+        defaultValue: new Date(),
+        optional:true
     },
     displayName: {
       type: String,

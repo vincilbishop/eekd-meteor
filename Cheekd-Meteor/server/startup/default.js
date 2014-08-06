@@ -27,4 +27,6 @@ Meteor.startup (function () {
     key: Assets.getText ('layer/layer.key')
   });
 
+  ModelSeed.seedModel();
+
 });

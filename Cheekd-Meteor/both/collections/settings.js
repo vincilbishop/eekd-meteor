@@ -3,8 +3,10 @@ Settings = new Meteor.Collection('settings', {
   'schema' : new SimpleSchema({
 
     createDate: {
-      type: Date,
-      label: 'createDate'
+        type: Date,
+        label: 'createDate',
+        defaultValue: new Date(),
+        optional:true
     },
     displayName: {
       type: String,

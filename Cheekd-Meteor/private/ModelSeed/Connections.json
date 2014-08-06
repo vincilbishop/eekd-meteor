@@ -1,7 +1,58 @@
 [
-  {
-    "_id":"test_connection_id",
-    "displayName": "connection_displayName_Here",
-    "userId": "connection_userId_here"
-  }
+    {
+        "_id":"connection_sdasdasdsd",
+        "displayName": "Display name",
+        "user1Id": "admin",
+        "user2Id":"user1",
+        "encounterId": "test_encounter_asdsdasasd"
+    },
+    {
+        "_id":"connection_cvxcvxcvc",
+        "displayName": "This is a connection",
+        "user1Id": "user1",
+        "user2Id":"user2",
+        "encounterId": "test_encounter_ljkljkkk"
+    },
+    {
+        "_id":"connection_bvnvbnvbn",
+        "displayName": "Making a connection",
+        "user1Id": "user2",
+        "user2Id":"user1",
+        "encounterId": "test_encounter_hgfhfg"
+    },
+    {
+        "_id":"connection_fdgdfgdfgfg",
+        "displayName": "New connection",
+        "user1Id": "admin",
+        "user2Id":"user2",
+        "encounterId": "test_encounter_asdsdasasd"
+    },
+    {
+        "_id":"connection_vcbcvbcvcv",
+        "displayName": "Sunday connection",
+        "user1Id": "user1",
+        "user2Id":"admin",
+        "encounterId": "test_encounter_wqetuuus"
+    },
+    {
+        "_id":"connection_454534tt34",
+        "displayName": "Yesterday connection",
+        "user1Id": "user2",
+        "user2Id":"user1",
+        "encounterId": "test_encounter_cvbnbcvv"
+    },
+    {
+        "_id":"connection_gjhjghjghjh",
+        "displayName": "Date connection",
+        "user1Id": "admin",
+        "user2Id":"user1",
+        "encounterId": "test_encounter_mjkkuugg"
+    },
+    {
+        "_id":"connection_gjfdd33112hjh",
+        "displayName": "Friend's connection",
+        "user1Id": "user1",
+        "user2Id":"user2",
+        "encounterId": "test_encounter_rtujhgfs"
+    }
 ]

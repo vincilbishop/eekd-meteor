@@ -5,7 +5,32 @@
  *  }
  */
 
-Profile.allow({
+Profile.upsertProfile = function (userId,profileData) {
+
+  var existingProfile = Profile.findOne({userId:userId});
+
+  var result;
+
+  if(!profileData){
+    profileData = {};
+  }
+
+  if (existingProfile){
+
+    result = Profile.update (userId, {$set: profileData});
+
+  } else {
+
+    profileData.createDate = new Date();
+    profileData.userId = userId;
+    result = Profile.insert (profileData);
+  }
+
+  return result;
+}
+
+
+Profile.allow ({
   insert: function (userId, doc) {
     return true;
   },
@@ -19,7 +44,7 @@ Profile.allow({
   }
 });
 
-Profile.deny({
+Profile.deny ({
   insert: function (userId, doc) {
     return false;
   },

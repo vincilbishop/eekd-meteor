@@ -3,16 +3,26 @@ Profile = new Meteor.Collection('profile', {
   'schema' : new SimpleSchema({
 
     createDate: {
-      type: Date,
-      label: 'createDate'
+        type: Date,
+        label: 'createDate',
+        defaultValue: new Date(),
+        optional:true
     },
     displayName: {
       type: String,
-      label: 'displayName'
+      label: 'displayName',
+      optional:true
     },
     userId: {
       type: String,
       label: 'userId'
+    },
+    'services.layer': {
+      type:Object,
+      optional:true
+    },
+    'layer_id': {
+      type:String
     }
   })
 });

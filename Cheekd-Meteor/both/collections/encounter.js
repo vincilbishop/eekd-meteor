@@ -3,8 +3,10 @@ Encounter = new Meteor.Collection ('encounter', {
   'schema': new SimpleSchema ({
 
     createDate: {
-      type: Date,
-      label: 'createDate'
+        type: Date,
+        label: 'createDate',
+        defaultValue: new Date(),
+        optional:true
     },
     user1Id: {
       type: String,
@@ -14,7 +16,7 @@ Encounter = new Meteor.Collection ('encounter', {
       type: String,
       label: 'user2Id'
     },
-    coordinates2D: {
+    coordinates2d: {
       label: '2D Coordinates',
       type: [Number],
       decimal: true,

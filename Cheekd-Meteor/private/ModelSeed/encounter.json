@@ -1,0 +1,54 @@
+[
+    {
+        
+        "user1Id":"user01",
+        "user2Id":"user02",
+        "coordinates2d":[39.680433,-101.367986]
+    },
+    {
+
+        "user1Id":"user03",
+        "user2Id":"user04",
+        "coordinates2d":[34.586507, -92.403142]
+
+    },
+    {
+
+        "user1Id":"user01",
+        "user2Id":"user02",
+        "coordinates2d":[37.363713, -85.136201]
+    },
+    {
+
+        "user1Id":"user03",
+        "user2Id":"user04",
+        "coordinates2d":[39.582509, -77.138154]
+
+    },
+    {
+
+        "user1Id":"user01",
+        "user2Id":"user02",
+        "coordinates2d":[38.507444, -98.627412]
+    },
+    {
+
+        "user1Id":"user03",
+        "user2Id":"user04",
+        "coordinates2d":[40.256573, -89.838350]
+
+    },
+    {
+
+        "user1Id":"user01",
+        "user2Id":"user02",
+        "coordinates2d":[42.124808, -87.904756]
+    },
+    {
+
+        "user1Id":"user03",
+        "user2Id":"user04",
+        "coordinates2d":[40.290102, -82.697236]
+
+    }
+]
