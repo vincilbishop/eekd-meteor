@@ -15,12 +15,8 @@
     "user-status": {},
     "facebook-node-sdk": {},
     "facebook-sdk": {},
-    "facebook-server-methods": {
-      "path": "../../../../Open-Source-Projects/meteor-facebook-server-methods/"
-    },
-    "layer-methods": {
-      "path": "../../../../Open-Source-Projects/meteor-layer-methods/"
-    },
+    "facebook-server-methods": {},
+    "layer-methods": {},
     "http-more": {}
   }
 }

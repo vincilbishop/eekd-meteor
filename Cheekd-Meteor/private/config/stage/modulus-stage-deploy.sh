@@ -7,4 +7,4 @@ modulus -p "EEKD-STAGE" env set NODE_ENV test
 # export METEOR_SETTINGS=`perl -pe'chomp' private/config/test/settings.json`
 # echo $METEOR_SETTINGS
 # modulus -p "CHEEKD-TEST" env set METEOR_SETTINGS $METEOR_SETTINGS
-modulus -p "EEKD-STAGE" deploy
+MODULUS_TOKEN=b21b84ce-e665-4813-afc3-dbe5c23f139e modulus -p "EEKD-STAGE" deploy
