@@ -33,7 +33,7 @@ Meteor.methods ({
 
     else {
 
-      return Profile.findOne({userId:userId});
+      return UserProfile.findOne({userId:userId});
 
     }
   }

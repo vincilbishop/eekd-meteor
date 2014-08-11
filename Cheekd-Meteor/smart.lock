@@ -17,12 +17,8 @@
       "user-status": {},
       "facebook-node-sdk": {},
       "facebook-sdk": {},
-      "facebook-server-methods": {
-        "path": "../../../../Open-Source-Projects/meteor-facebook-server-methods"
-      },
-      "layer-methods": {
-        "path": "../../../../Open-Source-Projects/meteor-layer-methods"
-      },
+      "facebook-server-methods": {},
+      "layer-methods": {},
       "http-more": {}
     },
     "packages": {
@@ -102,10 +98,14 @@
         "commit": "cb71b860085ec6453b61644b31f6351e7de2c1b0"
       },
       "facebook-server-methods": {
-        "path": "../../../../Open-Source-Projects/meteor-facebook-server-methods"
+        "git": "https://github.com/premosystems/meteor-facebook-server-methods",
+        "tag": "v0.3.3",
+        "commit": "586027ead47506166436dda47578cb267754c0d8"
       },
       "layer-methods": {
-        "path": "../../../../Open-Source-Projects/meteor-layer-methods"
+        "git": "https://github.com/premosystems/meteor-layer-methods",
+        "tag": "v1.0.1",
+        "commit": "b0112ec2faa73387ca0172514daa712a13aa58b6"
       },
       "http-more": {
         "git": "https://github.com/StockBase/meteor-http-more.git",

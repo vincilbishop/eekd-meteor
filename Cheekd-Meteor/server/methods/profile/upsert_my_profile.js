@@ -32,7 +32,7 @@ Meteor.methods ({
         profileData = {};
       }
 
-      var result = Profile.upsertProfile(this.userId,profileData);
+      var result = UserProfile.upsertProfile(this.userId,profileData);
 
       return result;
 

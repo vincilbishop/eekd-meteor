@@ -5,7 +5,7 @@
 /** Returns the settings collection
  * @method 'settings_index'
  * @returns  {Collection} Returns the Settings Collection.
- * @todo This method returns the Profile Collection
+ * @todo This method returns the UserProfile Collection
  * @memberof Publish-Methods
  */
 Meteor.publish('settings_index', function () {

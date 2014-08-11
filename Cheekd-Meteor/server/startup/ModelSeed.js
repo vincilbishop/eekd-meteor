@@ -70,14 +70,14 @@ ModelSeed.seedModel = function(){
   });
 
   /*
-  //Profile
+  //UserProfile
   var AssetProfile = Assets.getText ("ModelSeed/profile.json");
   var Profiles = JSON.parse (AssetProfile);
 
   Profiles.forEach (function (profile) {
-    var AlreadyExists = Profile.findOne (profile._id);
+    var AlreadyExists = UserProfile.findOne (profile._id);
     if (AlreadyExists == undefined) {
-      Profile.insert (profile);
+      UserProfile.insert (profile);
     }
   });
   */
